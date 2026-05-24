@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+build/
+
+# Environment variables (JANGAN di-upload ke GitHub!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# WhatsApp session (sensitif!)
+.wwebjs_auth/
+.wwebjs_cache/
+/tmp/bottorik-session/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
