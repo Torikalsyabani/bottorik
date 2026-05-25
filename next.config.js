@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Port dari env Railway
+  experimental: {
+    serverComponentsExternalPackages: ["whatsapp-web.js", "puppeteer"],
+  },
   serverRuntimeConfig: {
     port: process.env.PORT || 3000,
   },
